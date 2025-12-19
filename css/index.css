@@ -1,0 +1,252 @@
+section {padding: 80px 0;}
+
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+
+
+.ceo-message {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.ceo-grid {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ceo-photo {
+    flex: 1;
+    text-align: right;
+}
+
+.ceo-photo img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px #ff007f;
+}
+
+.ceo-text {
+    flex: 1.5;
+    text-align: left;
+}
+
+.sub-title {
+    color: #ff007f;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.ceo-text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.ceo-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.signature {
+    font-family: serif;
+    font-style: italic;
+    font-size: 20px !important;
+    color: #000 !important;
+    margin-top: 30px;
+}
+
+.new-release {
+    background: #f9f9f9;
+}
+
+.release-card {
+    text-align: center;
+}
+
+.release-image {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto 30px; 
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.release-image:hover .play-icon {
+    background: #ff007f;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.business-areas {
+    background: #fff;
+}
+
+.business-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.business-card{
+    padding: 30px;
+    margin: 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.business-card img{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+}
+
+
+
+.business-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.business-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #6200ea;
+}
+
+.business-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+
+.main-board {
+    background: #fff;
+    padding: 80px 0;
+}
+
+
+.main-board .tab-menu {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 0; 
+}
+
+.main-board .tab-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    padding: 15px 40px;
+}
+
+.main-board .tab-button.active {
+    color: #ff007f;
+    border-bottom: 3px solid #ff007f;
+}
+
+
+.board-list {
+    border-top: 1px solid #ddd;
+}
+
+.board-list li {
+    border-bottom: 1px solid #eee;
+    transition: background 0.3s;
+}
+
+.board-list li:hover {
+    background: #f9f9f9; 
+}
+
+.board-list a {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    color: #333;
+}
+
+.board-list .date {
+    width: 120px;
+    font-weight: bold;
+    color: #ff007f;
+    font-size: 14px;
+}
+
+.board-list .subject {
+    flex: 1;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.audition-banner {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/main_slide3.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    /* 스크롤 내려도 고정 */
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.audition-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.audition-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.audition-btn:hover {
+    background: #fff;
+    color: #000;
+}

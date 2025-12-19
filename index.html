@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업 홈페이지 - 메인</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div style="display: flex; justify-content: space-between;">
+                    <div>jony@tukorea.ac.kr / 010 - 4156 - 8759</div>
+                    <div><a href="#" style="margin-right: 15px;">로그인</a> <a href="#">회원가입</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo"><a href="index.html">STARLIGHT ENTERTAINMENT</a></div>
+                    <nav>
+                        <ul>
+                            <li><a href="./html/1page.html">회사소개</a></li>
+                            <li><a href="./html/2page.html">BUSINESS</a></li>
+                            <li><a href="./html/3page.html">MEDIA</a></li>
+                            <li><a href="./html/4page.html">IR</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider-section">
+        <div class="station">
+            <ul class="train">
+                <li><img src="./img/main_slide1.png" alt="슬라이드이미지1">
+                    <div class="slide-content">
+                        <h2>NEW GLOBAL AUDITION</h2>
+                        <p>당신의 꿈을 펼치세요</p>
+                    </div></li>
+                <li><img src="./img/main_slide2.png" alt="슬라이드이미지2">
+                <div class="slide-content">
+                        <h2>OUR ARTISTS</h2>
+                        <p>세상을 움직이는 음악</p>
+                    </div></li>
+                <li><img src="./img/main_slide3.png" alt="슬라이드이미지3">
+                <div class="slide-content">
+                        <h2>LATEST RELEASE</h2>
+                        <p>새로운 앨범 발매</p>
+                    </div></li>
+                <li><img src="./img/main_slide1.png" alt="슬라이드이미지4">
+                <div class="slide-content">
+                        <h2>NEW GLOBAL AUDITION</h2>
+                        <p>당신의 꿈을 펼치세요</p>
+                    </div></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="ceo-message">
+        <div class="container">
+            <div class="ceo-grid">
+                <div class="ceo-photo">
+                    <img src="img/ceo.jpeg" alt="대표이사 사진">
+                </div>
+                <div class="ceo-text">
+                    <h4 class="sub-title">MESSAGE FROM CEO</h4>
+                    <h2>"음악으로 세상을 비추는 별이 되겠습니다"</h2>
+                    <p>
+                    안녕하세요, STARLIGHT ENTERTAINMENT 대표 <strong>전조운</strong>입니다.<br>
+                    저희는 아티스트와 팬이 함께 꿈꾸는 공간을 만들어가고 있습니다.<br>
+                    차별화된 기획력과 글로벌 네트워크를 통해<br>
+                    K-CULTURE의 새로운 미래를 열어가겠습니다.
+                    </p>
+                    <p class="signature">Representative Director 전 조 운</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-release">
+        <div class="container">
+            <h2 class="section-title">LATEST RELEASE</h2>
+            <div class="release-card">
+                <div class="release-image">
+                    <img src="img/Album.jpeg" alt="신규 앨범">
+                    <div class="play-icon">▶</div> </div>
+                <div class="release-info">
+                    <h3>The 1st Mini Album 'ULALA'</h3>
+                    <p>2025.12.25 RELEASE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="business-areas" style="background-color: #f0f0f0;">
+        <div class="container">
+            <h2 class="section-title">STAR ARTIST</h2>
+            <div class="business-grid">
+                
+                <div class="business-card">
+                    <img src="img/artist1.png">
+                    <h3>BOY GROUP 'NEXUS'</h3>
+                    <p>강렬한 퍼포먼스의 7인조 보이그룹</p>
+                </div>
+
+                <div class="business-card">
+                    <img src="img/artist2.png">
+                    <h3>GIRL GROUP 'LUNA'</h3>
+                    <p>청량한 매력의 5인조 걸그룹</p>
+                </div>
+
+                <div class="business-card">
+                    <img src="img/artist3.png">
+                    <h3>ACTOR 'KIM STAR'</h3>
+                    <p>천의 얼굴을 가진 배우</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="main-board content-section">
+        <div class="container">
+            <h2 class="section-title">LATEST UPDATES</h2>
+            
+            <div class="tab-menu">
+                <button class="tab-button active" data-tab="main-notice">NOTICE</button>
+                <button class="tab-button" data-tab="main-news">NEWS</button>
+                <button class="tab-button" data-tab="main-schedule">SCHEDULE</button>
+            </div>
+
+            <div class="tab-content active" id="main-notice">
+                <ul class="board-list">
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.18</span>
+                            <span class="subject">[공지] 아티스트 팬레터 전달 관련 안내</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.15</span>
+                            <span class="subject">[공지] 공식 홈페이지 서버 점검 안내</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.10</span>
+                            <span class="subject">[오디션] 2025 글로벌 오디션 1차 합격자 발표</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="main-news">
+                <ul class="board-list">
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.20</span>
+                            <span class="subject">[보도] 걸그룹 LUNA, 빌보드 차트 진입 쾌거</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.19</span>
+                            <span class="subject">[인터뷰] 대표이사 전조운 "K-POP의 미래는..."</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">2025.12.12</span>
+                            <span class="subject">[행사] 연말 자선 콘서트 개최 안내</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="main-schedule">
+                <ul class="board-list">
+                    <li>
+                        <a href="#">
+                            <span class="date">12.25 (수)</span>
+                            <span class="subject">[방송] SBS 가요대전 (NEXUS, LUNA 출연)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">12.28 (토)</span>
+                            <span class="subject">[팬사인회] 배우 김스타 팬미팅 (코엑스)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">12.31 (화)</span>
+                            <span class="subject">[공연] 카운트다운 페스티벌</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="audition-banner">
+        <div class="container">
+            <div class="audition-content">
+                <h2>NEXT STAR IS YOU</h2>
+                <p>STARLIGHT와 함께 무대 위에서 빛날 당신을 기다립니다.</p>
+                <a href="html/3page.html" class="audition-btn">오디션 지원하기 &gt;</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">이메일무단수집거부</a>
+                    <a href="#">사이트맵</a>
+                </div>
+                <div class="copyright">
+                    경기도 파주시 한빛로 20 401 / jony@tukorea.ac.kr / 010 - 4156 - 8759<br>
+                    Copyright © 2024 STARLIGHT ENTERTAINMENT. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/common.js"></script>
+</body>
+</html>
