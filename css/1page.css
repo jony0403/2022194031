@@ -1,10 +1,4 @@
-.sub-slider .station {
-    height: 350px;
-}
-
-.sub-slider .slide-content h2 {
-    font-size: 40px;
-}
+@charset "utf-8";
 
 .center-menu {
     display: flex;
